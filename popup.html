@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Viz Tector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Viztector</h1>
+    </div>
+    <div class="content">
+      <p>Graph Distortion Detection and Correction Tool</p>
+    </div>
+    <div class="buttons">
+      <button id="download">Download</button>
+      <button id="feedback">Modify</button>
+      <button id="share">Reset</button>
+      <button id="reset">User Report</button>
+    </div>
+    <div class="settings">
+      <label>Image Size:
+        <input type="text" id="imageWidth" placeholder="x">
+        <input type="text" id="imageHeight" placeholder="y">
+      </label>
+      <label>Font Size:
+        <input type="range" id="fontSize">
+      </label>
+      <label>Grid Display:
+        <input type="checkbox" id="gridDisplay">
+      </label>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
